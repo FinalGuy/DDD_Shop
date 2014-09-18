@@ -17,7 +17,7 @@ public class OrderService {
 
     @Transactional
     public Order order(Cart cart) {
-        OrderId newOrderId = orderRepository.nextOrderId(); // --> early ID generation.
+        OrderId newOrderId = orderRepository.nextOrderId();
         Order newOrder = Order.from(cart, newOrderId); // --> publishes domain event.
         orderRepository.add(newOrder);
         return newOrder;

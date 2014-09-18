@@ -1,4 +1,4 @@
-package com.tfojuth.shop;
+package com.tfojuth.shop._common;
 
 import java.io.Serializable;
 

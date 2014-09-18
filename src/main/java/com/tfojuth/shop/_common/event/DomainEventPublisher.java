@@ -1,11 +1,11 @@
-package com.tfojuth.shop.event;
+package com.tfojuth.shop._common.event;
 
 public class DomainEventPublisher {
 
     private static final DomainEventPublisher INSTANCE = new DomainEventPublisher(); // no lazy instantiation as we will _always_ need the event publisher
 
     public void publish(DomainEvent domainEvent) {
-        // logic fpr event publishing here ...
+        // logic for event publishing here ...
     }
 
     /**

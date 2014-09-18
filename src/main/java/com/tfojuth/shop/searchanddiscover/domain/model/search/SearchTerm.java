@@ -1,6 +1,6 @@
 package com.tfojuth.shop.searchanddiscover.domain.model.search;
 
-import com.tfojuth.shop.ValueObject;
+import com.tfojuth.shop._common.ValueObject;
 import com.tfojuth.shop.searchanddiscover.domain.model.productlist.ProductId;
 
 public class SearchTerm implements ValueObject {
